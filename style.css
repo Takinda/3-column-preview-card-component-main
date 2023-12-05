@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Overpass:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Overpass:wght@100&display=swap');
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 48px;
+}
+main{
+    display: flex;
+    padding: 8% 18% 5% 18%;
+    height: 600px;
+    
+}
+button{
+    display: block;
+    color: black;
+    background-color: hsl(0, 0%, 95%);
+    mix-blend-mode: screen;
+    width: 70%;
+    height: 13%;
+    font-size: 120%;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+    border: hsl(0, 0%, 95%) 3px solid;
+    margin-top: 26%;
+    border-radius: 50px;
+
+}
+button:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: black;
+    cursor: pointer;
+}
+main div{
+    padding: 5%;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 128%;
+    font-weight: 400;
+    line-height: 180%;
+
+}
+#Sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+#SUVs{
+    background-color: hsl(184, 100%, 22%);
+    
+}
+#Luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+@media only screen and (max-width: 375px) {
+    main{
+        flex-direction: column;
+        padding: 5%;
+    }
+    p{
+        font-size: 100%;
+    }
+    main div{
+        padding: 20%;
+    }
+    #Sedans{
+        border-radius: 10px 10px 0px 0px;
+    }
+    #Luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 0px 10px 10px;
+    }
+    button{
+        margin-top: 10%;
+        font-size: 100%;
+    }
+    body{
+        padding: 5%;
+        margin: 0 0 5% 0;
+    }
+    footer{
+        display: block;
+        margin-top: 300%;
+    }
+}
